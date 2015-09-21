@@ -1,1 +1,1 @@
-The personal website of [Dimitri Walters](https://www.linkedin.com/in/dimitriwalters).
+My own personal website.
