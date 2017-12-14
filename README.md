@@ -1,3 +1,3 @@
 # dimitriwalters.github.io
 
-The files for my personal website
+All the files used for my personal website.

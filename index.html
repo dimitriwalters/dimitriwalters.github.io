@@ -1,186 +1,333 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
-<head>
-    <title>Dimitri Walters</title>
-    <!-- Meta -->
+<html lang="en">
+
+  <head>
+
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The portfolio of Waterloo computer science undergraduate Dimitri Walters">
-    <meta name="author" content="Dimitri Walters">    
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    <!-- github acitivity css -->
-    <link rel="stylesheet" href="assets/plugins/github-activity/dist/github-activity-0.1.1.min.css">
-    <link rel="stylesheet" href="assets/plugins/github-activity/dist/octicons/octicons.min.css">
-    
-    
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
-</head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<body>
-    <!-- ******HEADER****** --> 
-    <header class="header">
-        <div class="container">                       
-            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="Dimitri Walters" />
-            <div class="profile-content pull-left">
-                <h1 class="name">Dimitri Walters</h1>
-                <h2 class="desc">Computer Science Undergraduate</h2>   
-                <ul class="social list-inline">
-                    <li><a href="https://twitter.com/dimitriwalters"><i class="fa fa-twitter"></i></a></li>                   
-                    <li><a href="https://www.linkedin.com/in/dimitriwalters"><i class="fa fa-linkedin"></i></a></li>
-                    <li class="last-item"><a href="https://github.com/dimitriwalters"><i class="fa fa-github-alt"></i></a></li>                  
-                </ul> 
-            </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="mailto:me@dimi.io" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>              
-        </div><!--//container-->
-    </header><!--//header-->
-    
-    <div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-md-8 col-sm-12 col-xs-12">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>I'm a computer science undergraduate at the University of Waterloo. I have experience building production applications in Node.js, React Native, Java, Python, and Go. I am well-rounded in both front-end and back-end development, and am familiar with build tools such as AWS, Docker, and Vagrant. I also participated in MeteorHack and with my team won for "Most Technically Impressive" for building a <a href="https://github.com/markdownerds/markdownerds">real-time collaborative markdown editor</a>.</p>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-                
-                <section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Work Experience</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Product Lead - <span class="place"><a href="#">blueRover</a></span> <span class="year">(Jan 2016 - Apr 2016)</span></h3>
-                                <ul>
-                                    <li>Created native apps with React Native from scratch and released to Google Play (<a href="https://goo.gl/rUlM0x">https://goo.gl/rUlM0x</a>) and iTunes</li>
-                                    <li>Developed app to take temperature checks with a Bluetooth probe, written in JavaScript and native code in Java and Objective-C</li>
-                                    <li>Updated web application using React and Flux, as well as API using Node, Express, Socket.IO, Redis, RabbitMQ, and MariaDB</li>
-                                </ul>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Lead Software Developer - <span class="place"><a href="#">Bauxy</a></span> <span class="year">(May 2015 - Aug 2015)</span></h3>
-                                <ul>
-                                    <li>Developed a platform to automate the process of receiving reimbursements from out-of-network health providers</li>
-                                    <li>Handled operations side of stack using Docker containers and Amazon Web Services such as Elastic Beanstalk, EC2, S3</li>
-                                    <li>Wrote web apps and services in Go and Python, used OpenCV for processing images of bills</li>
-                                </ul>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Full-Stack Node.js Developer - <span class="place"><a href="#">FlashStock</a></span> <span class="year">(Sep 2014 - Dec 2014)</span></h3>
-                                <ul>
-                                    <li>Developed single-page apps and a RESTful API to manage requests of custom stock photography from brands to photographers along with curating photos through an internal web application</li>
-                                    <li>Built frontend with AngularJS, developed API using Node, Express, and Mongo</li>
-                                </ul>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Full-Stack Java Developer - <span class="place"><a href="#">Nuvation</a></span> <span class="year">(Jan 2014 - Apr 2014)</span></h3>
-                                <ul>
-                                    <li>Developed an internal application to provide employees with a variety of features such as tracking vendor purchases and bills, viewing employee profiles, viewing current projects, and maintaining timecards</li>
-                                    <li>Built using Spring for Java, and used Hibernate with MySQL</li>
-                                </ul>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Web Developer - <span class="place"><a href="#">Rich Media</a></span> <span class="year">(May 2013 - Aug 2013)</span></h3>
-                                <ul>
-                                    <li>Developed web and mobile apps for ScotiaBank, which called an external API to search for places listed for sale and filter homes based on user preferences and then plot the data on Google Maps</li>
-                                    <li>Created hybrid apps for Android, iOS, and Blackberry using PhoneGap, wrote backend in PHP</li>
-                                </ul>
-                            </div><!--//item-->
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
+    <title>Dimitri Walters</title>
 
-                <section class="github section">
-                    <div class="section-inner">
-                        <h2 class="heading">My GitHub</h2>
-                        <p><a href="https://github.com/dimitriwalters"><img class="github-chart" src="assets/images/github-chart.png"></a></p>
-                        <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->                       
-                        <div id="ghfeed" class="ghfeed">
-                        </div><!--//ghfeed-->
-                        
-                    </div><!--//secton-inner-->
-                </section><!--//section-->
-            </div><!--//primary-->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-            <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Waterloo, Canada</li>
-                                <li><i class="fa fa-phone"></i><span class="sr-only">Phone:</span>(226) 600-7070</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:me@dimi.io">me@dimi.io</a></li>
-                            </ul>
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//aside-->
-                
-                <aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Honours Bachelor of Computer Science</h3>
-                                <h4 class="university">University of Waterloo <span class="year">(2012-2017)</span></h4>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->  
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-                <aside class="list music aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Favourite coding music</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=8NihKdGqcz8">Closer by The Chainsmokers ft. Halsey</a></li>
-                                <li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=O5wlxT9ygtY">All My Love by Major Lazer ft. Ariana Grande &amp; Machel Montano</a></li>
-                                <li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=a59gmGkq_pw">Cold Water by Major Lazer ft. Justin Bieber &amp; MØ</a></li>
-                                <li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=WfqDSnCkaro">Cruel by Snakeships ft. Zayn</a></li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->         
-            </div><!--//secondary-->    
-        </div><!--//row-->
-    </div><!--//masonry-->
- 
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
-    <!-- github activity plugin -->
-    <script type="text/javascript" src="assets/plugins/github-activity/dist/mustache/mustache.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/github-activity/dist/github-activity-0.1.1.min.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
 
-      ga('create', 'UA-68258913-1', 'auto');
-      ga('send', 'pageview');
+  </head>
 
-    </script>
-</body>
-</html> 
+  <body id="page-top">
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Dimitri Walters</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+<!--           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Dimitri
+            <span class="text-primary">Walters</span>
+          </h1>
+          <div class="subheading mb-5">Computer Science Undergraduate ·
+            <a href="mailto:name@email.com">me@dimi.io</a>
+          </div>
+          <p class="mb-5">Experience building apps in Node.js, React Native, Java, Python, and Go. Well-rounded in both front-end and back-end development. Experience deploying using AWS, Elastic Beanstalk, and Docker. Won MeteorHack for building a real-time collaborative Markdown editor. Studying Computer Science at the University of Waterloo.</p>
+          <ul class="list-inline list-social-icons mb-0">
+            <!-- <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li> -->
+            <li class="list-inline-item">
+              <a href="https://twitter.com/dimitriwalters">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/dimitriwalters">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/dimitriwalters">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Full-Stack Web Developer</h3>
+              <div class="subheading mb-3">University of Waterloo, Waterloo ON</div>
+              <p>Developed a web application for managing examinations, different features include uploading and authorizing exams, assigning seats and rooms for exams, creating room floor plans, and managing grad student application. Developed mainly in Python, as well as using PostgresSQL, jQuery, Bootstrap.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2016 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Product Lead Mobile Developer</h3>
+              <div class="subheading mb-3">blueRover, Kitchener ON</div>
+              <p>Created native apps for Android and iOS, and released to Play Store and iTunes. Built using React Native, written in JavaScript, and native code in Java and Objective-C. The app allows users to connect via Bluetooth to a cooking probe and check temperature of stock to ensure within temperature range. Updated a web application and API using React, Flux, Node, and MariaDB.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2016 - April 2016</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Lead Software Developer</h3>
+              <div class="subheading mb-3">Bauxy, San Francisco CA</div>
+              <p>Switched roles from front-end developer, back-end developer, devops, and everything in between. Developed primarily in Go, built a web service using Python (Flask), used Postgres for our database, and used AWS for operations and deployment.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2015 - August 2015</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of Waterloo</h3>
+              <div class="subheading mb-3">Bachelor of Computer Science</div>
+              <div>Computer Science Co-operative Program, Software Engineering Option, Management Studies Minor</div>
+              <p>Relevant courses: Security (458), Networks (456), Operating Systems (350), User Interfaces (349), Compilers (241)</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Expected October 2018</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-python"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-react"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-nodejs"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-aws"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-docker"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-angular"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-mongodb"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bootstrap"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-postgresql"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-php"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-java"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-android"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-apple"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-phonegap"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-jquery"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-mysql"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-sass"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-git"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-sublime"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-meteor"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-mailchimp"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-responsive"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-firebase"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-heroku"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-markdown"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-wordpress"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Development</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Web - React, Angular, Bootstrap, Sass, PHP, WordPress</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Mobile - React Native, iOS (Objective-C), Android, PhoneGap</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Backend - Python, Node, Java (Spring), Postgres, Mongo</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              DevOps - AWS, Elastic Beanstalk, Docker, Heroku, Meteor</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>I am extremely fascinated with psychology and the study of human behaviour. Currently I'm interested in the works of Carl Jung and Aušra Augustinavičiūtė, both <a href="https://en.wikipedia.org/wiki/Psychological_Types"> Psychological Types</a> and <a href="https://en.wikipedia.org/wiki/Socionics">Socionics</a>. I'm also a huge supporter of LGBT+ rights, being actively involved in my university's queer and trans student organization.</p>
+          <p class="mb-0">Amongst many other hobbies, I enjoy hiking and being outdoors, visiting national parks and scenic areas around Northern California and regularly being outdoors when the weather calls for it. I also enjoy cooking shows, especially anything Goron Ramsay. I also try to practice mixed martial arts, and am pretty decent in poker. And of course, I enjoy software developmet, everything from learning about networks or security, to software engineering practices, data structures, and machine learning.</p>
+        </div>
+      </section>
+
+      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Google Analytics Certified Developer</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Mobile Web Specialist - Google Certification</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              2<sup>nd</sup>
+              Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
+            <li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              Place - James Buchanan High School - Hackathon 2006</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              3<sup>rd</sup>
+              Place - James Buchanan High School - Hackathon 2005</li>
+          </ul>
+        </div>
+      </section> -->
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
+</html>
